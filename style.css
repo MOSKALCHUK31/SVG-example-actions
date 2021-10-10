@@ -1,0 +1,49 @@
+* {
+  margin: 50px;
+}
+
+#wheelOne {fill:#464655}
+
+#wheelOne:hover {
+  fill: #32772e;
+  cursor: pointer;
+}
+
+#wheelTwo {fill:#464655}
+
+#wheelTwo:hover {
+  cursor: pointer;
+  fill: #32772e;
+}
+
+#spoiler {
+  animation: color 2s infinite;
+}
+
+
+@keyframes color {
+  from {
+    fill: #FF6464;
+    transform :translateX(0px);
+  }
+  50% {
+    fill: orange;
+    transform :translateX(-10px);
+  }
+  to {
+    fill: #FF6464;
+    transform :translateX(0px)
+  }
+}
+
+.img {
+  position: relative;
+}
+
+
+
+/*
+@keyframes animation {
+  from {transform:translateX(0px)}
+  to{transform:translateX(400px)}
+} */
